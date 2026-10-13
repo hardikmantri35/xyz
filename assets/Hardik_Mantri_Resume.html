@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardik Mantri - Curriculum Vitae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #0f172a; color: #334155; padding: 2rem 1rem; }
+    .page { max-width: 800px; margin: 0 auto; background: #ffffff; padding: 3rem; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+    header { border-bottom: 2px solid #0284c7; padding-bottom: 1.5rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem; }
+    h1 { font-family: 'Space Grotesk', sans-serif; font-size: 2.2rem; color: #0f172a; }
+    .subtitle { color: #0284c7; font-weight: 600; font-size: 1rem; margin-top: 4px; }
+    .contact-info { font-size: 0.85rem; color: #64748b; line-height: 1.5; text-align: right; }
+    section { margin-bottom: 1.5rem; }
+    h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.15rem; color: #0f172a; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .entry { margin-bottom: 1rem; }
+    .entry-header { display: flex; justify-content: space-between; font-weight: 600; color: #0f172a; font-size: 0.95rem; }
+    .entry-sub { color: #0284c7; font-size: 0.85rem; font-weight: 500; margin-bottom: 0.35rem; }
+    .entry-desc { font-size: 0.85rem; color: #475569; line-height: 1.5; }
+    ul { padding-left: 1.25rem; font-size: 0.85rem; color: #475569; line-height: 1.5; }
+    li { margin-bottom: 0.25rem; }
+    .skills-grid { display: grid; grid-template-columns: 140px 1fr; gap: 0.5rem; font-size: 0.85rem; }
+    .skill-type { font-weight: 600; color: #0f172a; }
+    .actions-bar { text-align: center; margin-bottom: 1.5rem; }
+    .btn-print { padding: 0.6rem 1.2rem; background: #0284c7; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-family: inherit; }
+    @media print {
+      body { background: white; padding: 0; }
+      .page { box-shadow: none; padding: 1.5rem; max-width: 100%; }
+      .actions-bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="actions-bar">
+    <button class="btn-print" onclick="window.print()">🖨️ Print or Save as PDF</button>
+  </div>
+  <div class="page">
+    <header>
+      <div>
+        <h1>Hardik Mantri</h1>
+        <div class="subtitle">B.Tech Computer Science Engineering (1st Year)</div>
+      </div>
+      <div class="contact-info">
+        Jaipur, Rajasthan, India<br>
+        hardikmantri.dev@gmail.com<br>
+        linkedin.com/in/hardik-mantri • github.com/hardik-mantri
+      </div>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <span>JECRC University, Jaipur</span>
+          <span>2024 – 2028</span>
+        </div>
+        <div class="entry-sub">Bachelor of Technology (B.Tech) - Computer Science Engineering</div>
+        <div class="entry-desc">
+          Current Year: 1st Year (Semester 1 &amp; 2)<br>
+          Relevant Coursework: Programming in C/C++, Engineering Mathematics, Digital Logic, Fundamentals of Computing.
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-type">Languages:</div>
+        <div>C, C++, HTML5, CSS3, JavaScript (ES6+), Python (Basics)</div>
+        <div class="skill-type">Web &amp; Tools:</div>
+        <div>Responsive Web Design, Git &amp; GitHub, VS Code, Linux CLI, Vercel</div>
+        <div class="skill-type">Concepts:</div>
+        <div>Data Structures &amp; Algorithms (In Progress), Object-Oriented Programming (OOP)</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="entry">
+        <div class="entry-header">
+          <span>Algoverse – Algorithm Visualizer</span>
+          <span>HTML, CSS, JavaScript</span>
+        </div>
+        <ul>
+          <li>Engineered an interactive web tool visualizing sorting algorithms (Bubble, Insertion, QuickSort) with dynamic step controls.</li>
+          <li>Employed CSS animations and asynchronous JavaScript to clarify time &amp; space complexity for learners.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span>CampusSync – Student Utility Portal</span>
+          <span>Web Tech, LocalStorage</span>
+        </div>
+        <ul>
+          <li>Created a collegiate utility platform with SGPA/CGPA calculators, exam syllabus trackers, and notes repository for university peers.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <span>BankFlow – OOP Console Banking Engine</span>
+          <span>C++, File I/O</span>
+        </div>
+        <ul>
+          <li>Developed a modular console-based banking management software using Object-Oriented Principles and binary file storage.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Extracurricular &amp; Achievements</h2>
+      <ul>
+        <li>Active participant in collegiate coding hackathons and technical symposiums at JECRC University.</li>
+        <li>Solved 100+ algorithmic programming problems on HackerRank and LeetCode.</li>
+        <li>Technical member of the campus developer and open-source computing society.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

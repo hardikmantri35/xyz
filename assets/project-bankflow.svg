@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0b1329"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bfBg)"/>
+  <!-- Console Window -->
+  <rect x="80" y="50" width="640" height="350" rx="12" fill="#030712" stroke="rgba(16,185,129,0.3)" stroke-width="1.5"/>
+  <rect x="80" y="50" width="640" height="40" rx="12" fill="#0f172a"/>
+  <circle cx="110" cy="70" r="5" fill="#ef4444"/>
+  <circle cx="126" cy="70" r="5" fill="#f59e0b"/>
+  <circle cx="142" cy="70" r="5" fill="#10b981"/>
+  <text x="400" y="75" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" text-anchor="middle">g++ -std=c++17 BankFlow.cpp -o BankFlow &amp;&amp; ./BankFlow</text>
+
+  <!-- Console Content -->
+  <text x="120" y="130" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="14">===========================================</text>
+  <text x="120" y="155" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="700">    [BANKFLOW] CORE BANKING ENGINE (OOP)   </text>
+  <text x="120" y="180" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="14">===========================================</text>
+  <text x="120" y="215" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">&gt; [1] Initialize Account: #889210-ACC (Hardik Mantri)</text>
+  <text x="120" y="240" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">&gt; [2] Deposit Transaction: +INR 25,000.00 [SUCCESS]</text>
+  <text x="120" y="265" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">&gt; [3] File Ledger Sync: records/data.bin written (SHA-256)</text>
+  <text x="120" y="295" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="13">&gt;&gt; Current Balance: INR 84,200.00 | Status: ACTIVE</text>
+  <text x="120" y="335" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="14">&gt; Select Action [1-5]: _</text>
+  <rect x="315" y="322" width="10" height="18" fill="#38bdf8"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="devGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#dfBg)"/>
+  <circle cx="400" cy="225" r="180" fill="url(#devGrad)" opacity="0.12" filter="blur(60px)"/>
+  <!-- Browser Frame -->
+  <rect x="100" y="60" width="600" height="330" rx="14" fill="#0f172a" stroke="rgba(56,189,248,0.25)" stroke-width="1.5"/>
+  <rect x="100" y="60" width="600" height="42" rx="14" fill="#1e293b"/>
+  <circle cx="130" cy="81" r="5" fill="#ef4444"/>
+  <circle cx="148" cy="81" r="5" fill="#f59e0b"/>
+  <circle cx="166" cy="81" r="5" fill="#10b981"/>
+  <!-- Web elements -->
+  <rect x="140" y="130" width="160" height="24" rx="12" fill="rgba(56,189,248,0.15)"/>
+  <text x="155" y="146" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">hardikmantri.dev</text>
+  <text x="140" y="195" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700">Engineering the Future</text>
+  <text x="140" y="225" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="13">B.Tech CSE Student • Jaipur, India</text>
+  
+  <rect x="140" y="255" width="120" height="38" rx="8" fill="url(#devGrad)"/>
+  <text x="200" y="279" fill="#ffffff" font-family="'Inter', sans-serif" font-size="12" font-weight="600" text-anchor="middle">View Projects</text>
+  
+  <!-- Right floating code snippet -->
+  <rect x="420" y="140" width="240" height="180" rx="10" fill="#020617" stroke="rgba(255,255,255,0.08)"/>
+  <text x="440" y="175" fill="#ec4899" font-family="'JetBrains Mono', monospace" font-size="12">const hardik = {</text>
+  <text x="455" y="200" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="12">  role: "Builder",</text>
+  <text x="455" y="225" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12">  univ: "JECRC",</text>
+  <text x="455" y="250" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12">  passionate: true</text>
+  <text x="440" y="275" fill="#ec4899" font-family="'JetBrains Mono', monospace" font-size="12">};</text>
+</svg>

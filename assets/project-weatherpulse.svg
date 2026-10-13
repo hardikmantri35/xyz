@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="60%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#wpBg)"/>
+  <!-- Weather App Glass Card -->
+  <rect x="180" y="55" width="440" height="340" rx="24" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <!-- Sun Icon -->
+  <circle cx="270" cy="150" r="42" fill="url(#sunGrad)"/>
+  <text x="350" y="165" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="700">28°C</text>
+  <text x="230" y="225" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="600">Jaipur, Rajasthan</text>
+  <text x="230" y="250" fill="#bae6fd" font-family="'Inter', sans-serif" font-size="14">Sunny &amp; Clear • Humidity 42% • Wind 12 km/h</text>
+  <!-- 4 Day mini forecast pills -->
+  <g transform="translate(210, 280)">
+    <rect x="0" y="0" width="85" height="80" rx="12" fill="rgba(0,0,0,0.2)"/>
+    <text x="42" y="26" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle">Mon</text>
+    <text x="42" y="60" fill="#fde047" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" text-anchor="middle">29°</text>
+
+    <rect x="100" y="0" width="85" height="80" rx="12" fill="rgba(0,0,0,0.2)"/>
+    <text x="142" y="26" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle">Tue</text>
+    <text x="142" y="60" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" text-anchor="middle">27°</text>
+
+    <rect x="200" y="0" width="85" height="80" rx="12" fill="rgba(0,0,0,0.2)"/>
+    <text x="242" y="26" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle">Wed</text>
+    <text x="242" y="60" fill="#fde047" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" text-anchor="middle">30°</text>
+
+    <rect x="300" y="0" width="85" height="80" rx="12" fill="rgba(0,0,0,0.2)"/>
+    <text x="342" y="26" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle">Thu</text>
+    <text x="342" y="60" fill="#bae6fd" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" text-anchor="middle">28°</text>
+  </g>
+</svg>

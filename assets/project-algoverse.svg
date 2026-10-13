@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="activeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <!-- Grid overlay -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="90" x2="800" y2="90"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="270" x2="800" y2="270"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="450"/>
+    <line x1="320" y1="0" x2="320" y2="450"/>
+    <line x1="480" y1="0" x2="480" y2="450"/>
+    <line x1="640" y1="0" x2="640" y2="450"/>
+  </g>
+  <!-- Algorithm Bars -->
+  <g transform="translate(100, 370)">
+    <rect x="0" y="-120" width="35" height="120" rx="4" fill="url(#barGrad)"/>
+    <rect x="50" y="-220" width="35" height="220" rx="4" fill="url(#barGrad)"/>
+    <rect x="100" y="-80" width="35" height="80" rx="4" fill="url(#barGrad)"/>
+    <rect x="150" y="-290" width="35" height="290" rx="4" fill="url(#activeGrad)"/>
+    <rect x="200" y="-160" width="35" height="160" rx="4" fill="url(#barGrad)"/>
+    <rect x="250" y="-240" width="35" height="240" rx="4" fill="url(#activeGrad)"/>
+    <rect x="300" y="-110" width="35" height="110" rx="4" fill="url(#barGrad)"/>
+    <rect x="350" y="-190" width="35" height="190" rx="4" fill="url(#barGrad)"/>
+    <rect x="400" y="-310" width="35" height="310" rx="4" fill="url(#barGrad)"/>
+    <rect x="450" y="-140" width="35" height="140" rx="4" fill="url(#barGrad)"/>
+    <rect x="500" y="-260" width="35" height="260" rx="4" fill="url(#barGrad)"/>
+    <rect x="550" y="-95" width="35" height="95" rx="4" fill="url(#barGrad)"/>
+  </g>
+  <!-- Floating stats tag -->
+  <rect x="520" y="50" width="220" height="48" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+  <circle cx="545" cy="74" r="6" fill="#10b981"/>
+  <text x="565" y="79" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="600">QuickSort: O(N log N)</text>
+</svg>
